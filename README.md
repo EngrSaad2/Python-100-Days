@@ -50,31 +50,31 @@ All experience comes from mistakes.
 Don't be one of the leeches.
 Either stand out or kicked out.
 Day01 ~ 15- Python language basics
-Day01-Getting to know Python
+### Day01-Getting to know Python
 Introduction to Python-History of Python / Pros and Cons of Python / Application Areas of Python
 Build a programming environment-Windows environment / Linux environment / MacOS environment
 Run Python program from terminal-Hello, world / print function / run program
 Using IDLE-Interactive Environment (REPL) / Writing Multiple Lines of Code / Running a Program / Exiting IDLE
 Comments-The role of comments / single-line comments / multi-line comments
-Day02- language element
+### Day02- language element
 Programs and Bases-Instructions and Programs / Von Neumann Machines / Binary and Decimal / Octal and Hex
 Variables and types-variable naming / use of variables / input functions / checking variable types / type conversion
 Numbers and strings-integers / floating points / complex numbers / strings / string basic operations / character encoding
 Operators-Mathematical Operators / Assignment Operators / Comparison Operators / Logical Operators / Identity Operators / Operator Priorities
 Application Case-Convert Fahrenheit to Celsius / Enter the radius of the circle to calculate the perimeter and area / Enter the year to determine if it is a leap year
-Day03- branch structure
+### Day03- branch structure
 Application Scenarios for Branching Structure-Conditions / Indentation / Code Blocks / Flowchart
 if statement-simple if / if-else structure / if-elif-else structure / nested if
 Application case-User authentication / Swap the imperial and metric units / Roll the dice to decide what to do / Percentage to grade system / Piecewise function evaluation
-Day04- loop structure
+### Day04- loop structure
 Application Scenarios for Loop Structures-Conditions / Indentation / Code Blocks / Flowcharts
 while loop-basic structure / break statement / continue statement
 for loop-basic structure / range type / branch structure in loop / nested loop / early end of program
 Application Cases-1 ~ 100 Summation / Judging Prime Numbers / Guessing Numbers Game
-Day05- Constructor logic
+### Day05- Constructor logic
 Classic case: Number of daffodils / hundreds of chickens / Craps gambling game
 Practice questions: Fibonacci sequence / perfect number / prime number
-Day06-Use of functions and modules
+### Day06-Use of functions and modules
 The role of functions-bad smell of code / function modules with functions
 Define function-def statement / function name / parameter list / return statement / call custom function
 Calling Functions-Python Built-in Functions / Importing Modules and Functions
@@ -82,7 +82,7 @@ Function arguments-default arguments / variable arguments / keyword arguments / 
 Function return value-no return value / single value returned / multiple values ​​returned
 Scope issues-local scope / nested scope / global scope / built-in scope / scope-related keywords
 Manage functions with modules-module concepts / functions with custom modules / naming conflicts (same module and different modules)
-Day07- Strings and common data structures
+### Day07- Strings and common data structures
 Use of Strings-Calculating Length / Subscript Operation / Slicing / Common Methods
 Basic usage of lists-define lists
 List common operations-join / copy (copy elements and copy arrays) / length / sort / reverse / find
@@ -94,56 +94,56 @@ Basic dictionary usage-Features of dictionary / Create dictionary / Add element 
 Dictionary common operations-keys () method / values ​​() method / items () method / setdefault () method
 Basic Exercises-Marquee Effects / Finding the Largest Element in a List / Statistical Average of Test Results / Fibonacci Sequence
 Comprehensive case-Two-color ball selection / Tic-tac-toe
-Day08- Basics of Object - Oriented Programming
+### Day08- Basics of Object - Oriented Programming
 Classes and Objects-What Are Classes / What Are Objects / Other Object Oriented Concepts
 Defining Classes-Basic Structure / Properties and Methods / Constructors / Destructors / __str__ Methods
 Working with objects-creating objects / messaging objects
 Four Pillars of Object Orientation-Abstraction / Encapsulation / Inheritance / Polymorphism
 Basic Exercises-Define Student Class / Define Clock Class / Define Graphics Class / Define Automotive Class
-Day09- Advanced Object Oriented
+### Day09- Advanced Object Oriented
 Properties-class properties / instance properties / property accessors / property modifiers / property deleters / use __slots__
 Methods in the class-instance methods / class methods / static methods
 Operator overloading-__add__ / __sub__ / __or__ / __ getitem__ / __setitem__ / __len__ / __repr__ / __gt__ / __lt__ / __le__ / __ge__ / __eq______________ _______
 Relationship between classes (objects)-association / inheritance / dependency
 Inheritance and Polymorphism-What is Inheritance / Inheritance Syntax / Calling Parent Method / Method Override / Type Decision / Multiple Inheritance / Diamond Inheritance (Diamond Inheritance) and C3 Algorithm
 Comprehensive case-salary settlement system / automatic book discount system / custom scores
-Day10- Graphical user interface and game development
+### Day10- Graphical user interface and game development
 Develop GUI programs using tkinter
 Use pygame library to develop game applications
 "Big Ball Eat Small Ball" game
-Day11- files and exceptions
+### Day11- files and exceptions
 Read file-read entire file / read line by line / file path
 Write file-overwrite / append write / text file / binary file
 Exception Handling-Importance of Exception Mechanisms / try-except code blocks / else code blocks / finally code blocks / built-in exception types / exception stacks / raise statements
 Data Persistence-Overview of CSV files / Application of csv module / JSON data format / Application of json module
-Day12- strings and regular expressions
+### Day12- strings and regular expressions
 Advanced string operations-escape characters / raw strings / multi-line strings / in and not in operators / methods starting with is / join and split methods / strip related methods / pyperclip module / immutable strings and variable characters Use of String / StringIO
 Getting started with regular expressions-What regular expressions do / metacharacters / escapes / quantifiers / grouping / zero-width assertions / greedy matching and lazy matching laziness / regular expression operations (match, search, replace, capture) with re
 Use regular expressions-re modules / compile functions / group and groups methods / match methods / search methods / findall and finder methods / sub and subn methods / split methods
 Use Case-Validate Input Strings Using Regular Expressions
-Day13- processes and threads
+### Day13- processes and threads
 The concept of processes and threads-what is a process / what is a thread / multi-threaded application scenario
 Use process-fork function / multiprocessing module / process pool / inter-process communication
 Using threads-thread module / threading module / Thread class / Lock class / Condition class / Thread pool
-Day14- Introduction to Network Programming and Network Application Development
+### Day14- Introduction to Network Programming and Network Application Development
 Computer Network Basics-History of Computer Networks / "TCP-IP" Model / IP Address / Port / Protocol / Other Related Concepts
 Web Application Mode-Client-Server Mode / Browser-Server Mode
 Access network resources based on HTTP protocol-Overview of network API / Access URL / requests module / Parse JSON format data
 Python Network Programming-Socket Concept / Socket Module / Socket Function / Create TCP Server / Create TCP Client / Create UDP Server / Create UDP Client / SocketServer Module
 Email-SMTP protocol / POP3 protocol / IMAP protocol / smtplib module / poplib module / imaplib module
 SMS Service-Call SMS Service Gateway
-Day15- image and document processing
+### Day15- image and document processing
 Process pictures with Pillow-picture reading and writing / picture synthesis / geometric transformation / color conversion / filter effects
 Reading and Writing Word Documents-Handling of Text Content / Paragraphs / Headers and Footers / Style Handling
 Read and write Excel files-xlrd module / xlwt module
 Generate PDF file-pypdf2 module / reportlab module
-Day16 ~ Day20- Advanced Python Language
+### Day16 ~ Day20- Advanced Python Language
 Common data structures
 Advanced Use of Functions-"First Class Citizens" / Higher Order Functions / Lambda Functions / Scopes and Closures / Decorators
 Advanced Object-Oriented Knowledge-"Three Pillars" / The Relationship Between Classes / Garbage Collection / Magic Properties and Methods / Hybrids / Metaclasses / Object-Oriented Design Principles / GoF Design Patterns
 Iterators and generators-related magic methods / Two ways to create generators /
 Concurrent and asynchronous programming-multi-threaded / multi-process / asynchronous IO / async and await
-Day21 ~ 30-Introduction to Web Frontend
+### Day21 ~ 30-Introduction to Web Frontend
 Host page content with HTML tags
 Rendering pages with CSS
 Handling interactive behavior with JavaScript
@@ -151,7 +151,7 @@ Getting started with jQuery
 Getting started with Vue.js
 Use of Element
 Use of Bootstrap
-Day31 ~ 35- Fun with Linux operating system
+### Day31 ~ 35- Fun with Linux operating system
 Operating system history and Linux overview
 Linux basic commands
 Utilities in Linux
@@ -161,65 +161,78 @@ Environment variables and shell programming
 Software installation and service configuration
 Network access and management
 Other related content
-Day36 ~ 40- Database basics and advanced
+### Day36 ~ 40- Database basics and advanced
 Relational Database MySQL
 Overview of relational databases
 Installation and use of MySQL
 Use of SQL
+
 DDL-Data Definition Language-create / drop / alt
+
 DML-Data Manipulation Language-insert / delete / update / select
+
 DCL-Data Control Language-grant / revoke
+
 related information
+
 Paradigm Theory-Guidelines for Designing Two-Dimensional Tables
+
 Data integrity
+
 Data consistency
+
 Manipulating MySQL in Python
+
 Getting started with NoSQL
+
 NoSQL overview
+
 Redis overview
+
 Mongo overview
-Day41 ~ 55- Practical Django
-Day41- Quick Start
+
+### Day41 ~ 55- Practical Django
+### Day41- Quick Start
 Web application working principle and HTTP protocol
 Overview of the Django framework
 Get started in 5 minutes
 Using view templates
-Day42-In- Depth Model
+### Day42-In- Depth Model
 Relational database configuration
 Use of management background
 CRUD operations on models using ORM
 Django model best practices
 Model definition reference
-Day43- Static resources and Ajax requests
+### Day43- Static resources and Ajax requests
 Load static resources
 Get data with Ajax request
-Day44- Form Application
+### Day44- Form Application
 Forms and form controls
 Cross-site request forgery and CSRF token
 Form and ModelForm
 form validation
-Day45- Cookie and Session
+### Day45- Cookie and Session
 Implementing user tracking
 The relationship between cookies and sessions
 Django framework support for sessions
 Read and write cookies in view functions
-Day46- reports and logs
+### Day46- reports and logs
 Modify the response header through HttpResponse
 Handling large files with StreamingHttpResponse
 Generate Excel report using xlwt
 Generate PDF report using reportlab
 Generate front-end charts with ECharts
 Configuration logs and Django-Debug-Toolbar
-Day47- Application of middleware
+### Day47- Application of middleware
 What is middleware
 Middleware built into the Django framework
 Custom middleware and its application scenarios
-Day48- Introduction to front-end and back-end separation development
+### Day48- Introduction to front-end and back-end separation development
 Returns data in JSON format
 Rendering a page with Vue.js
-Day49- Introduction to RESTful Architecture and DRF
-Day50- RESTful architecture and advanced DRF
-Day51- use cache
+### Day49- Introduction to RESTful Architecture and DRF
+### Day50- RESTful architecture and advanced DRF
+### Day51- use cache
 Website optimization first law
 
 ### Use Redis to provide caching services in Django projects
@@ -230,115 +243,120 @@ Implement page caching using decorators
 
 Provide caching services for data interfaces
 
-Day52- File upload and rich text editing
+### Day52- File upload and rich text editing
 File upload form control and picture file preview
 How the server handles uploaded files
 Rich text editor overview
 Use of wangEditor
-Day53- text and email
+### Day53- text and email
 Introduction to common SMS gateway platforms
 Send a text message with a screw cap
 Django framework support for mail services
-Day54- asynchronous and timed tasks
+### Day54- asynchronous and timed tasks
 Website optimization second law
 Configure the message queue service
 Use celery to make tasks asynchronous in projects
 Use celery to implement timed tasks in projects
-Day55- Unit testing and project launch
+### Day55- Unit testing and project launch
 Unit tests in Python
 Django framework support for unit testing
 Using a version control system
 Configure and use uWSGI
 Dynamic and static separation and Nginx configuration
 Configure HTTPS
-Day56 ~ 60- Actual Flask
-Day56- getting started with Flask
-Day57- Use of templates
-Day58- Form processing
-Day59- database operations
-Day60- Project Combat
-Day61 ~ 65- Tornado in action
-Day61- preliminary knowledge
+### Day56 ~ 60- Actual Flask
+### Day56- getting started with Flask
+### Day57- Use of templates
+### Day58- Form processing
+### Day59- database operations
+### Day60- Project Combat
+### Day61 ~ 65- Tornado in action
+### Day61- preliminary knowledge
 Concurrent programming
 I / O mode and event-driven
-Day62- Getting Started with Tornado
+### Day62- Getting Started with Tornado
 Tornado overview
 Get started with Tornado in 5 minutes
 Route resolution
 Request handler
-Day63- asynchronous
+### Day63- asynchronous
 Use of aiomysql and aioredis
-Day64- WebSocket Application
+### Day64- WebSocket Application
 WebSocket Introduction
+
 WebSocket server-side programming
+
 WebSocket client programming
+
 Project: Web chat room
+
 Day65- Project Combat
+
 Front-end and back-end separation development and interface documentation
 Front-end rendering with Vue.js
 Use ECharts for reporting
 Using WebSocket for Push Services
-Day66 ~ 75- Reptile Development
-Day66- Web crawler and related tools
+### Day66 ~ 75- Reptile Development
+### Day66- Web crawler and related tools
 The concept of web crawler and its application field
 Discussion on the legitimacy of web crawlers
 Related tools for developing web crawlers
 The composition of a crawler
-Day67- Data Acquisition and Analysis
+### Day67- Data Acquisition and Analysis
 Data Acquisition Standards and Tripartite Libraries
 Three ways of page parsing: regular expression parsing / XPath parsing / CSS selector parsing
-Day68- Store data
+### Day68- Store data
 How to store massive data
 Implementing data caching
-Day69- concurrent download
+### Day69- concurrent download
 Multi-threaded and multi-process
 Asynchronous I / O and coroutines
 Use of async and await keywords
 Application of three party library aiohttp
-Day70- Parsing dynamic content
+### Day70- Parsing dynamic content
 JavaScript reverse engineering
 Get dynamic content with Selenium
-Day71- Form interaction and verification code processing
+### Day71- Form interaction and verification code processing
 Auto submit form
 Cookie pool application
 Verification code processing
-Day72- Getting started with Scrapy
+### Day72- Getting started with Scrapy
 Overview of the Scrapy crawler framework
 Install and use Scrapy
-Day73- Scrapy Advanced Application
+### Day73- Scrapy Advanced Application
 Spider
 Application of middleware: download middleware / spider middleware
 Scrapy docks with Selenium to grab dynamic content
 Scrapy deployment to Docker
-Day74- Scrapy distributed implementation
+### Day74- Scrapy distributed implementation
 The principle of distributed crawlers
 Scrapy distributed implementation
 Distributed deployment with Scrapyd
-Day75- actual crawler project
+### Day75- actual crawler project
 Crawling Job Site Data
 Crawling Real Estate Industry Data
 Crawling Used Car Trading Platform Data
-Day76 ~ 90- Data Processing and Machine Learning
-Day76- Machine Learning Basics
-Day77- Applications by Pandas
-Day78-Application of NumPy and SciPy
-Day79- Matplotlib and data visualization
-Day80- k nearest neighbor (KNN) classification
-Day81- Decision Tree
-Day82- Bayesian Classification
-Day83- Support Vector Machine (SVM)
-Day84- K-means clustering
-Day85- regression analysis
-Day86- Introduction to Big Data Analytics
-Day87- Advanced big data analysis
-Day88- Getting started with Tensorflow
-Day89- Tensorflow combat
-Day90- recommendation system
-Day91 ~ 100- Team project development
-Day 91: Problems and Solutions for Team Project Development
+### Day76 ~ 90- Data Processing and Machine Learning
+### Day76- Machine Learning Basics
+### Day77- Applications by Pandas
+### Day78-Application of NumPy and SciPy
+### Day79- Matplotlib and data visualization
+### Day80- k nearest neighbor (KNN) classification
+### Day81- Decision Tree
+### Day82- Bayesian Classification
+### Day83- Support Vector Machine (SVM)
+### Day84- K-means clustering
+### Day85- regression analysis
+### Day86- Introduction to Big Data Analytics
+### Day87- Advanced big data analysis
+### Day88- Getting started with Tensorflow
+### Day89- Tensorflow combat
+### Day90- recommendation system
+### Day91 ~ 100- Team project development
+### Day 91: Problems and Solutions for Team Project Development
 Software process model
 
-Classic Process Model (Waterfall Model)
+### Classic Process Model (Waterfall Model)
 
 Feasibility analysis (do or don't do research), output "feasibility analysis report".
 Requirement analysis (research what to do), output "Requirement Specification" and product interface prototype diagram.
@@ -350,17 +368,23 @@ The biggest shortcoming of the waterfall model is that it cannot embrace changes
 Scrum-Product Owner, Scrum Master, Developer-Sprint
 
 Product Backlog (user story, product prototype).
+
 Planning meetings (evaluation and budget).
+
 Daily development (stand-up meetings, tomato work, pair programming, test-first, code refactoring ...).
+
 Fix bugs (problem description, recurring steps, testers, assignees).
+
 release version.
+
 Review meeting (Showcase, users need to participate).
+
 Retrospective (to summarize the current iteration cycle).
+
 Added: Manifesto for Agile Software Development
 
-Individuals and interactions above processes and tools
-Working software above detailed documentation
-Customer cooperation above contract negotiation
+Individuals and interactions above processes and tools working software above detailed documentation
+Customer cooperation above contract negotiation.
 Response to change is higher than following plan
 
 
