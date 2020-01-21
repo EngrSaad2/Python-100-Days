@@ -11,668 +11,505 @@ Phone: +8801904654712<br>
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 >
-> 最近有很多想学习Python的小伙伴陆陆续续加入我们的交流群，目前我们的交流群人数已经超过一万人。我们的目标是打造一个优质的Python交流社区，一方面为想学习Python的初学者扫平入门过程中的重重障碍；另一方为新入行的开发者提供问道的途径，帮助他们迅速成长为优秀的职业人；此外，有经验的开发者可以利用这个平台把自己的工作经验无偿分享或有偿提供出来，让大家都能够得到职业技能以及综合素质的全面提升。之前的公开课和线下技术交流活动因为工作的关系荒废了一段时间了，但是各位小伙伴仍然活跃在交流群并一如既往的支持我们，在此向大家表示感谢。近期开始持续更新前15天和最后10天的内容，前15天是写给初学者的，我希望把上手的难度进一步降低，例子程序更加简单清晰；最后10天是Python项目实战和面试相关的东西，我希望内容更详实和完整，尤其是第100天的面试题部分；创作不易，感谢大家的打赏支持，这些钱不会用于购买咖啡而是通过腾讯公益平台捐赠给需要帮助的人（[点击](./更新日志.md)了解捐赠情况）。
+Recently, many friends who want to learn Python have joined our communication group one after another. At present, the number of our communication group has exceeded 10,000. Our goal is to create a high-quality Python communication community. On the one hand, it clears the obstacles in the entry process for beginners who want to learn Python; on the other hand, it provides a way for new developers to ask questions and help them quickly grow into excellent ones. Professionals; In addition, experienced developers can use this platform to share or provide their work experience for free, so that everyone can get a comprehensive promotion of professional skills and comprehensive quality. The previous public classes and offline technical exchange activities have been abandoned for some time because of work. However, the small partners are still active in the communication group and support us as always, thank you here. Recently, the content of the first 15 days and the last 10 days has been continuously updated. The first 15 days are written for beginners. I hope that the difficulty of getting started will be further reduced, and the example program will be simpler and clearer. The last 10 days are related to the actual combat of Python projects and interviews. I hope that the content is more detailed and complete, especially the interview question on the 100th day. It is not easy to create. Thank you for your support. The money will not be used for coffee purchases but will be donated to the people in need through the Tencent public welfare platform. ( Click for donations).
+
+
 
 ![](./res/python-qq-group.png)
 
-### Python应用领域和就业形势分析
-
-简单的说，Python是一个“优雅”、“明确”、“简单”的编程语言。
-
- - 学习曲线低，非专业人士也能上手
- - 开源系统，拥有强大的生态圈
- - 解释型语言，完美的平台可移植性
- - 支持面向对象和函数式编程
- - 能够通过调用C/C++代码扩展功能
- - 代码规范程度高，可读性强
-
-目前几个比较流行的领域，Python都有用武之地。
-
- - 云基础设施 - Python / Java / Go
- - DevOps - Python / Shell / Ruby / Go
- - 网络爬虫 - Python / PHP / C++
- - 数据分析挖掘 - Python / R / Scala / Matlab
- - 机器学习 - Python / R / Java / Lisp
-
-作为一名Python开发者，主要的就业领域包括：
-
-- Python服务器后台开发 / 游戏服务器开发 / 数据接口开发工程师
-- Python自动化运维工程师
-- Python数据分析 / 数据可视化 / 大数据工程师
-- Python爬虫工程师
-- Python聊天机器人开发 / 图像识别和视觉算法 / 深度学习工程师
-
-下图显示了主要城市Python招聘需求量及薪资待遇排行榜（截止到2018年5月）。
-
-![Python招聘需求及薪资待遇Top 10](./res/python-top-10.png)
-
-![](./res/python-bj-salary.png)
-
-![](./res/python-salary-chengdu.png)
-
-给初学者的几个建议：
-
-- Make English as your working language.
-- Practice makes perfect.
-- All experience comes from mistakes.
-- Don't be one of the leeches.
-- Either stand out or kicked out.
-
-### Day01~15 - [Python语言基础](./Day01-15)
-
-#### Day01 - [初识Python](./Day01-15/01.初识Python.md)
-
-- Python简介 - Python的历史 / Python的优缺点 / Python的应用领域
-- 搭建编程环境 - Windows环境 / Linux环境 / MacOS环境
-- 从终端运行Python程序 - Hello, world / print函数 / 运行程序
-- 使用IDLE - 交互式环境(REPL) / 编写多行代码 / 运行程序 / 退出IDLE
-- 注释 - 注释的作用 / 单行注释 / 多行注释
-
-#### Day02 - [语言元素](./Day01-15/02.语言元素.md)
-
-- 程序和进制 - 指令和程序 / 冯诺依曼机 / 二进制和十进制 / 八进制和十六进制
-- 变量和类型 - 变量的命名 / 变量的使用 / input函数 / 检查变量类型 / 类型转换
-- 数字和字符串 - 整数 / 浮点数 / 复数 / 字符串 / 字符串基本操作 / 字符编码
-- 运算符 - 数学运算符 / 赋值运算符 / 比较运算符 / 逻辑运算符 / 身份运算符 / 运算符的优先级
-- 应用案例 - 华氏温度转换成摄氏温度 / 输入圆的半径计算周长和面积 / 输入年份判断是否是闰年
-
-#### Day03 - [分支结构](./Day01-15/03.分支结构.md)
-
-- 分支结构的应用场景 - 条件 / 缩进 / 代码块 / 流程图
-- if语句 - 简单的if / if-else结构 / if-elif-else结构 / 嵌套的if
-- 应用案例 - 用户身份验证 / 英制单位与公制单位互换 / 掷骰子决定做什么 / 百分制成绩转等级制 / 分段函数求值 / 输入三条边的长度如果能构成三角形就计算周长和面积
-
-#### Day04 - [循环结构](./Day01-15/04.循环结构.md)
-
-- 循环结构的应用场景 - 条件 / 缩进 / 代码块 / 流程图
-- while循环 - 基本结构 / break语句 / continue语句
-- for循环 - 基本结构 / range类型 / 循环中的分支结构 / 嵌套的循环 / 提前结束程序 
-- 应用案例 - 1~100求和 / 判断素数 / 猜数字游戏 / 打印九九表 / 打印三角形图案 / 猴子吃桃 / 百钱百鸡
-
-#### Day05 - [构造程序逻辑](./Day01-15/05.构造程序逻辑.md)
-
-- 经典案例：水仙花数 / 百钱百鸡 / Craps赌博游戏
-- 练习题目：斐波那契数列 / 完美数 / 素数
-
-#### Day06 - [函数和模块的使用](./Day01-15/06.函数和模块的使用.md)
-
-- 函数的作用 - 代码的坏味道 / 用函数封装功能模块
-- 定义函数 - def语句 / 函数名 / 参数列表 / return语句 / 调用自定义函数
-- 调用函数 - Python内置函数 /  导入模块和函数
-- 函数的参数 - 默认参数 / 可变参数 / 关键字参数 / 命名关键字参数
-- 函数的返回值 - 没有返回值  / 返回单个值 / 返回多个值
-- 作用域问题 - 局部作用域 / 嵌套作用域 / 全局作用域 / 内置作用域 / 和作用域相关的关键字
-- 用模块管理函数 - 模块的概念 / 用自定义模块管理函数 / 命名冲突的时候会怎样（同一个模块和不同的模块）
-
-#### Day07 - [字符串和常用数据结构](./Day01-15/07.字符串和常用数据结构.md)
-
-- 字符串的使用 - 计算长度 / 下标运算 / 切片 / 常用方法
-- 列表基本用法 - 定义列表 / 用下表访问元素 / 下标越界 / 添加元素 / 删除元素 / 修改元素 / 切片 / 循环遍历
-- 列表常用操作 - 连接 / 复制(复制元素和复制数组) / 长度 / 排序 / 倒转 / 查找
-- 生成列表 - 使用range创建数字列表 / 生成表达式 / 生成器
-- 元组的使用 - 定义元组 / 使用元组中的值 / 修改元组变量 / 元组和列表转换
-- 集合基本用法 - 集合和列表的区别 /  创建集合 / 添加元素 / 删除元素 /  清空
-- 集合常用操作 - 交集 / 并集 / 差集 / 对称差 / 子集 / 超集
-- 字典的基本用法 - 字典的特点 / 创建字典 / 添加元素 / 删除元素 / 取值 / 清空
-- 字典常用操作 - keys()方法 / values()方法 / items()方法 / setdefault()方法
-- 基础练习 - 跑马灯效果 / 列表找最大元素 / 统计考试成绩的平均分 / Fibonacci数列 / 杨辉三角
-- 综合案例 - 双色球选号 / 井字棋
-
-#### Day08 - [面向对象编程基础](./Day01-15/08.面向对象编程基础.md)
-
-- 类和对象 - 什么是类 / 什么是对象 / 面向对象其他相关概念
-- 定义类 - 基本结构 / 属性和方法 / 构造器 / 析构器 / \_\_str\_\_方法
-- 使用对象 - 创建对象 / 给对象发消息
-- 面向对象的四大支柱 - 抽象 / 封装 / 继承 / 多态
-- 基础练习 - 定义学生类 / 定义时钟类 / 定义图形类 / 定义汽车类
-
-#### Day09 - [面向对象进阶](./Day01-15/09.面向对象进阶.md)
-
-- 属性 - 类属性 / 实例属性 / 属性访问器 / 属性修改器 / 属性删除器 / 使用\_\_slots\_\_
-- 类中的方法 - 实例方法 / 类方法 / 静态方法
-- 运算符重载 - \_\_add\_\_ / \_\_sub\_\_ / \_\_or\_\_ /\_\_getitem\_\_ / \_\_setitem\_\_ / \_\_len\_\_ / \_\_repr\_\_ / \_\_gt\_\_ / \_\_lt\_\_ / \_\_le\_\_ / \_\_ge\_\_ / \_\_eq\_\_ / \_\_ne\_\_ / \_\_contains\_\_ 
-- 类(的对象)之间的关系 - 关联 / 继承 / 依赖
-- 继承和多态 - 什么是继承 / 继承的语法 / 调用父类方法 / 方法重写 / 类型判定 / 多重继承 / 菱形继承(钻石继承)和C3算法
-- 综合案例 - 工资结算系统 / 图书自动折扣系统 / 自定义分数类
-
-#### Day10 - [图形用户界面和游戏开发](./Day01-15/10.图形用户界面和游戏开发.md)
-
-- 使用tkinter开发GUI程序
-- 使用pygame三方库开发游戏应用
-- “大球吃小球”游戏
-
-#### Day11 - [文件和异常](./Day01-15/11.文件和异常.md)
-
-- 读文件 - 读取整个文件 / 逐行读取 / 文件路径
-- 写文件 - 覆盖写入 / 追加写入 / 文本文件 / 二进制文件
-- 异常处理 - 异常机制的重要性 / try-except代码块 / else代码块 / finally代码块 / 内置异常类型 / 异常栈 / raise语句
-- 数据持久化 - CSV文件概述 / csv模块的应用 / JSON数据格式 / json模块的应用
-
-#### Day12 - [字符串和正则表达式](./Day01-15/12.字符串和正则表达式.md)
-
-- 字符串高级操作 - 转义字符 / 原始字符串 / 多行字符串 / in和 not in运算符 / is开头的方法 / join和split方法 / strip相关方法 / pyperclip模块 / 不变字符串和可变字符串 / StringIO的使用
-- 正则表达式入门 - 正则表达式的作用 / 元字符 / 转义 / 量词 / 分组 / 零宽断言 /贪婪匹配与惰性匹配懒惰 / 使用re模块实现正则表达式操作（匹配、搜索、替换、捕获）
-- 使用正则表达式 - re模块 / compile函数 / group和groups方法 / match方法 / search方法 / findall和finditer方法 / sub和subn方法 / split方法
-- 应用案例 - 使用正则表达式验证输入的字符串
-
-#### Day13 - [进程和线程](./Day01-15/13.进程和线程.md)
-
-- 进程和线程的概念 - 什么是进程 / 什么是线程 / 多线程的应用场景
-- 使用进程 - fork函数 / multiprocessing模块 / 进程池 / 进程间通信
-- 使用线程 - thread模块 / threading模块 / Thread类 / Lock类 / Condition类 / 线程池
-
-#### Day14 - [网络编程入门和网络应用开发](./Day01-15/14.网络编程入门和网络应用开发.md)
-
-- 计算机网络基础 - 计算机网络发展史 / “TCP-IP”模型 / IP地址 / 端口 / 协议 / 其他相关概念
-- 网络应用模式 - “客户端-服务器”模式 / “浏览器-服务器”模式
-- 基于HTTP协议访问网络资源 - 网络API概述 / 访问URL / requests模块 / 解析JSON格式数据
-- Python网络编程 - 套接字的概念 / socket模块 /  socket函数 / 创建TCP服务器 / 创建TCP客户端 / 创建UDP服务器 / 创建UDP客户端 / SocketServer模块
-- 电子邮件 - SMTP协议 / POP3协议 / IMAP协议 / smtplib模块 / poplib模块 / imaplib模块
-- 短信服务 - 调用短信服务网关
-
-#### Day15 - [图像和文档处理](./Day01-15/15.图像和办公文档处理.md)
-
-- 用Pillow处理图片 - 图片读写 / 图片合成 / 几何变换 / 色彩转换 / 滤镜效果
-- 读写Word文档 - 文本内容的处理 / 段落 / 页眉和页脚 / 样式的处理
-- 读写Excel文件 - xlrd模块 / xlwt模块
-- 生成PDF文件 - pypdf2模块 / reportlab模块
-
-### Day16~Day20 - [Python语言进阶 ](./Day16-20/16-20.Python语言进阶.md)
-
-- 常用数据结构
-- 函数的高级用法 - “一等公民” / 高阶函数 / Lambda函数 / 作用域和闭包 / 装饰器
-- 面向对象高级知识 - “三大支柱” / 类与类之间的关系 / 垃圾回收 / 魔术属性和方法 / 混入 / 元类 / 面向对象设计原则 / GoF设计模式
-- 迭代器和生成器 - 相关魔术方法 / 创建生成器的两种方式 / 
-- 并发和异步编程 - 多线程 / 多进程 / 异步IO / async和await
-
-### Day21~30 - [Web前端入门](./Day21-30/21-30.Web前端概述.md)
-
-- 用HTML标签承载页面内容
-- 用CSS渲染页面
-- 用JavaScript处理交互式行为
-- jQuery入门和提高
-- Vue.js入门
-- Element的使用
-- Bootstrap的使用
-
-### Day31~35 - [玩转Linux操作系统](./Day31-35/31-35.玩转Linux操作系统.md)
-
-- 操作系统发展史和Linux概述
-- Linux基础命令
-- Linux中的实用程序
-- Linux的文件系统
-- Vim编辑器的应用
-- 环境变量和Shell编程
-- 软件的安装和服务的配置
-- 网络访问和管理
-- 其他相关内容
-
-### Day36~40 - [数据库基础和进阶](./Day36-40)
-
-- [关系型数据库MySQL](./Day36-40/36-38.关系型数据库MySQL.md)
-  - 关系型数据库概述
-  - MySQL的安装和使用
-  - SQL的使用
-    - DDL - 数据定义语言 - create / drop / alter
-    - DML - 数据操作语言 - insert / delete / update / select
-    - DCL - 数据控制语言 - grant / revoke
-  - 相关知识
-    - 范式理论 - 设计二维表的指导思想
-    - 数据完整性
-    - 数据一致性
-  - 在Python中操作MySQL
-- [NoSQL入门](./Day36-40/39-40.NoSQL入门.md)
-  - NoSQL概述
-  - Redis概述
-  - Mongo概述
-
-### Day41~55 - [实战Django](./Day41-55)
-
-#### Day41 - [快速上手](./Day41-55/41.快速上手.md)
-
-- Web应用工作原理和HTTP协议
-- Django框架概述
-- 5分钟快速上手
-- 使用视图模板
-
-#### Day42 - [深入模型](./Day41-55/42.深入模型.md)
-
-- 关系型数据库配置
-- 管理后台的使用
-- 使用ORM完成对模型的CRUD操作
-- Django模型最佳实践
-- 模型定义参考
-
-#### Day43 - [静态资源和Ajax请求](./Day41-55/43.静态资源和Ajax请求.md)
-
-- 加载静态资源
-- 用Ajax请求获取数据
-
-#### Day44 - [表单的应用](./Day41-55/44.表单的应用.md)
-
-- 表单和表单控件
-- 跨站请求伪造和CSRF令牌
-- Form和ModelForm
-- 表单验证
-
-#### Day45 - [Cookie和Session](./Day41-55/45.Cookie和Session.md)
-
-- 实现用户跟踪
-- cookie和session的关系
-- Django框架对session的支持
-- 视图函数中的cookie读写操作
-
-#### Day46 - [报表和日志](./Day41-55/46.报表和日志.md)
-
-- 通过HttpResponse修改响应头
-- 使用StreamingHttpResponse处理大文件
-- 使用xlwt生成Excel报表
-- 使用reportlab生成PDF报表
-- 使用ECharts生成前端图表
-- 配置日志和Django-Debug-Toolbar
-
-#### Day47 - [中间件的应用](./Day41-55/47.中间件的应用.md)
-
-- 什么是中间件
-- Django框架内置的中间件
-- 自定义中间件及其应用场景
-
-#### Day48 - [前后端分离开发入门](./Day41-55/48.前后端分离开发入门.md)
-
-- 返回JSON格式的数据
-- 用Vue.js渲染页面
-
-#### Day49 - [RESTful架构和DRF入门](./Day41-55/49.RESTful架构和DRF入门.md)
-
-#### Day50 - [RESTful架构和DRF进阶](./Day41-55/50.RESTful架构和DRF进阶.md)
-
-#### Day51 - [使用缓存](./Day41-55/51.使用缓存.md)
-
-- 网站优化第一定律
-
-- 在Django项目中使用Redis提供缓存服务
-- 在视图函数中读写缓存
-- 使用装饰器实现页面缓存
-- 为数据接口提供缓存服务
-
-#### Day52 - [文件上传和富文本编辑](./Day41-55/52.文件上传和富文本编辑器.md)
-
-- 文件上传表单控件和图片文件预览
-- 服务器端如何处理上传的文件
-- 富文本编辑器概述
-- wangEditor的使用
-
-#### Day53 - [短信和邮件](./Day41-55/53.短信和邮件.md)
-
-- 常用短信网关平台介绍
-- 使用螺丝帽发送短信
-- Django框架对邮件服务的支持
-
-#### Day54 - [异步任务和定时任务](./Day41-55/54.异步任务和定时任务.md)
-
-- 网站优化第二定律
-- 配置消息队列服务
-- 在项目中使用celery实现任务异步化
-- 在项目中使用celery实现定时任务
-
-#### Day55 - [单元测试和项目上线](./Day41-55/55.单元测试和项目上线.md)
-
-- Python中的单元测试
-- Django框架对单元测试的支持
-- 使用版本控制系统
-- 配置和使用uWSGI
-- 动静分离和Nginx配置
-- 配置HTTPS
-
-
-### Day56~60 - [实战Flask](./Day56-65)
-
-#### Day56 - [Flask入门](./Day56-60/56.Flask入门.md) 
-
-#### Day57 - [模板的使用](./Day56-60/57.模板的使用.md) 
-
-#### Day58 - [表单的处理](./Day56-60/58.表单的处理.md) 
-
-#### Day59 - [数据库操作](./Day56-60/59.数据库操作.md)
-
-#### Day60 - [项目实战](./Day56-60/60.项目实战.md)
-
-### Day61~65 - [实战Tornado](./Day61-65)
-
-#### Day61 - [预备知识](./Day61-65/61.预备知识.md)
-
-- 并发编程
-- I/O模式和事件驱动
-
-#### Day62 - [Tornado入门](./Day61-65/62.Tornado入门.md)
-
-- Tornado概述
-- 5分钟上手Tornado
-- 路由解析
-- 请求处理器
-
-#### Day63 - [异步化](./Day61-65/63.异步化.md)
-
-- aiomysql和aioredis的使用
-
-#### Day64 - [WebSocket的应用](./Day61-65/64.WebSocket的应用.md)
-
-- WebSocket简介
-- WebSocket服务器端编程
-- WebSocket客户端编程
-- 项目：Web聊天室
-
-#### Day65 - [项目实战](./Day61-65/65.项目实战.md)
-
-- 前后端分离开发和接口文档的撰写
-- 使用Vue.js实现前端渲染
-- 使用ECharts实现报表功能
-- 使用WebSocket实现推送服务
-
-### Day66~75 - [爬虫开发](./Day66-75)
-
-#### Day66 - [网络爬虫和相关工具](./Day66-75/66.网络爬虫和相关工具.md)
-
-- 网络爬虫的概念及其应用领域
-- 网络爬虫的合法性探讨
-- 开发网络爬虫的相关工具
-- 一个爬虫程序的构成
-
-#### Day67 - [数据采集和解析](./Day66-75/67.数据采集和解析.md)
-
-- 数据采集的标准和三方库
-- 页面解析的三种方式：正则表达式解析 / XPath解析 / CSS选择器解析
-
-#### Day68 - [存储数据](./Day66-75/68.存储数据.md)
-
-- 如何存储海量数据
-- 实现数据的缓存
-
-#### Day69 - [并发下载](./Day66-75/69.并发下载.md)
-
-- 多线程和多进程
-- 异步I/O和协程
-- async和await关键字的使用
-- 三方库aiohttp的应用
-
-#### Day70 - [解析动态内容](./Day66-75/70.解析动态内容.md)
-
-- JavaScript逆向工程
-- 使用Selenium获取动态内容
-
-#### Day71 - [表单交互和验证码处理](./Day66-75/71.表单交互和验证码处理.md)
-
-- 自动提交表单
-- Cookie池的应用
-- 验证码处理
-
-#### Day72 - [Scrapy入门](./Day66-75/72.Scrapy入门.md)
-
-- Scrapy爬虫框架概述
-- 安装和使用Scrapy
-
-#### Day73 - [Scrapy高级应用](./Day66-75/73.Scrapy高级应用.md)
-
-- Spider的用法
-- 中间件的应用：下载中间件 / 蜘蛛中间件
-- Scrapy对接Selenium抓取动态内容
-- Scrapy部署到Docker
-
-#### Day74 - [Scrapy分布式实现](./Day66-75/74.Scrapy分布式实现.md)
-
-- 分布式爬虫的原理
-- Scrapy分布式实现
-- 使用Scrapyd实现分布式部署
-
-#### Day75 - [爬虫项目实战](./Day66-75/75.爬虫项目实战.md)
-
-- 爬取招聘网站数据
-- 爬取房地产行业数据
-- 爬取二手车交易平台数据
-
-### Day76~90 - [数据处理和机器学习](./Day76-90)
-
-#### Day76 - [机器学习基础](./Day76-90/76.机器学习基础.md)
-
-#### Day77 - [Pandas的应用](./Day76-90/77.Pandas的应用.md)
-
-#### Day78 - [NumPy和SciPy的应用](./Day76-90/78.NumPy和SciPy的应用)
-
-#### Day79 - [Matplotlib和数据可视化](./Day76-90/79.Matplotlib和数据可视化)
-
-#### Day80 - [k最近邻(KNN)分类](./Day76-90/80.k最近邻分类.md)
-
-#### Day81 - [决策树](./Day76-90/81.决策树.md)
-
-#### Day82 - [贝叶斯分类](./Day76-90/82.贝叶斯分类.md)
-
-#### Day83 - [支持向量机(SVM)](./Day76-90/83.支持向量机.md)
-
-#### Day84 - [K-均值聚类](./Day76-90/84.K-均值聚类.md)
-
-#### Day85 - [回归分析](./Day76-90/85.回归分析.md)
-
-#### Day86 - [大数据分析入门](./Day76-90/86.大数据分析入门.md)
-
-#### Day87 - [大数据分析进阶](./Day76-90/87.大数据分析进阶.md)
-
-#### Day88 - [Tensorflow入门](./Day76-90/88.Tensorflow入门.md)
-
-#### Day89 - [Tensorflow实战](./Day76-90/89.Tensorflow实战.md)
-
-#### Day90 - [推荐系统](./Day76-90/90.推荐系统.md)
-
-### Day91~100 - [团队项目开发](./Day91-100)
-
-#### 第91天：[团队项目开发的问题和解决方案](./Day91-100/91.团队项目开发的问题和解决方案.md)
-
-1. 软件过程模型
-   - 经典过程模型（瀑布模型）
-     - 可行性分析（研究做还是不做），输出《可行性分析报告》。
-     - 需求分析（研究做什么），输出《需求规格说明书》和产品界面原型图。
-     - 概要设计和详细设计，输出概念模型图（ER图）、物理模型图、类图、时序图等。
-     - 编码 / 测试。
-     - 上线 / 维护。
-
-     瀑布模型最大的缺点是无法拥抱需求变化，整套流程结束后才能看到产品，团队士气低落。
-   - 敏捷开发（Scrum）- 产品所有者、Scrum Master、研发人员 - Sprint
-     - 产品的Backlog（用户故事、产品原型）。
-     - 计划会议（评估和预算）。
-     - 日常开发（站立会议、番茄工作法、结对编程、测试先行、代码重构……）。
-     - 修复bug（问题描述、重现步骤、测试人员、被指派人）。
-     - 发布版本。
-     - 评审会议（Showcase，用户需要参与）。
-     - 回顾会议（对当前迭代周期做一个总结）。
-
-     > 补充：敏捷软件开发宣言
-     >
-     > - **个体和互动** 高于 流程和工具
-     > - **工作的软件** 高于 详尽的文档
-     > - **客户合作** 高于 合同谈判
-     > - **响应变化** 高于 遵循计划
-
-     ![](./res/agile-scrum-sprint-cycle.png)
-
-     > 角色：产品所有者（决定做什么，能对需求拍板的人）、团队负责人（解决各种问题，专注如何更好的工作，屏蔽外部对开发团队的影响）、开发团队（项目执行人员，具体指开发人员和测试人员）。
-
-     > 准备工作：商业案例和资金、合同、憧憬、初始产品需求、初始发布计划、入股、组建团队。
-
-     >  敏捷团队通常人数为8-10人。
-
-     >  工作量估算：将开发任务量化，包括原型、Logo设计、UI设计、前端开发等，尽量把每个工作分解到最小任务量，最小任务量标准为工作时间不能超过两天，然后估算总体项目时间。把每个任务都贴在看板上面，看板上分三部分：to do（待完成）、in progress（进行中）和done（已完成）。
-
-2. 项目团队组建
-
-   - 团队的构成和角色
-
-     > 说明：谢谢付祥英女士绘制了下面这张精美的公司组织架构图。
-
-     ![company_architecture](./res/company_architecture.png)
-
-   - 编程规范和代码审查（flake8、pylint）
-
-     ![](./res/pylint.png)
-
-   - Python中的一些“惯例”（请参考[《Python惯例-如何编写Pythonic的代码》](Python惯例.md)）
-
-   - 影响代码可读性的原因：
-
-     - 代码注释太少或者没有注释
-     - 代码破坏了语言的最佳实践
-     - 反模式编程（意大利面代码、复制-黏贴编程、自负编程、……）
-
-3. 团队开发工具介绍
-   - 版本控制：Git、Mercury
-   - 缺陷管理：[Gitlab](https://about.gitlab.com/)、[Redmine](http://www.redmine.org.cn/)
-   - 敏捷闭环工具：[禅道](https://www.zentao.net/)、[JIRA](https://www.atlassian.com/software/jira/features)
-   - 持续集成：[Jenkins](https://jenkins.io/)、[Travis-CI](https://travis-ci.org/)
-
-   请参考[《团队项目开发的问题和解决方案》](Day91-100/91.团队项目开发的问题和解决方案.md)。
-
-##### 项目选题和理解业务
-
-1. 选题范围设定
-
-   - CMS（用户端）：新闻聚合网站、问答/分享社区、影评/书评网站等。
-   - MIS（用户端+管理端）：KMS、KPI考核系统、HRS、CRM系统、供应链系统、仓储管理系统等。
-
-   - App后台（管理端+数据接口）：二手交易类、报刊杂志类、小众电商类、新闻资讯类、旅游类、社交类、阅读类等。
-   - 其他类型：自身行业背景和工作经验、业务容易理解和把控。
-
-2. 需求理解、模块划分和任务分配
-
-   - 需求理解：头脑风暴和竞品分析。
-   - 模块划分：画思维导图（XMind），每个模块是一个枝节点，每个具体的功能是一个叶节点（用动词表述），需要确保每个叶节点无法再生出新节点，确定每个叶子节点的重要性、优先级和工作量。
-   - 任务分配：由项目负责人根据上面的指标为每个团队成员分配任务。
-
-   ![](./res/requirements_by_xmind.png)
-
-3. 制定项目进度表（每日更新）
-
-   | 模块 | 功能     | 人员   | 状态     | 完成 | 工时 | 计划开始 | 实际开始 | 计划结束 | 实际结束 | 备注             |
-   | ---- | -------- | ------ | -------- | ---- | ---- | -------- | -------- | -------- | -------- | ---------------- |
-   | 评论 | 添加评论 | 王大锤 | 正在进行 | 50%  | 4    | 2018/8/7 |          | 2018/8/7 |          |                  |
-   |      | 删除评论 | 王大锤 | 等待     | 0%   | 2    | 2018/8/7 |          | 2018/8/7 |          |                  |
-   |      | 查看评论 | 白元芳 | 正在进行 | 20%  | 4    | 2018/8/7 |          | 2018/8/7 |          | 需要进行代码审查 |
-   |      | 评论投票 | 白元芳 | 等待     | 0%   | 4    | 2018/8/8 |          | 2018/8/8 |          |                  |
-
-4. OOAD和数据库设计
-
-  - UML（统一建模语言）的类图
-
-    ![uml](./res/uml-class-diagram.png)
-
-  - 通过模型创建表（正向工程）
-
-    ```Shell
-    python manage.py makemigrations app
-    python manage.py migrate
-    ```
-
-  - 使用PowerDesigner绘制物理模型图。
-
-    ![](./res/power-designer-pdm.png)
-
-  - 通过数据表创建模型（反向工程）
-
-    ```Shell
-    python manage.py inspectdb > app/models.py
-    ```
-
-#### 第92天：[Docker容器详解](./Day91-100/92.Docker容器详解.md)
-
-1. Docker简介
-2. 安装Docker
-3. 使用Docker创建容器（Nginx、MySQL、Redis、Gitlab、Jenkins）
-4. 构建Docker镜像（Dockerfile的编写和相关指令）
-5. 容器编排（Docker-compose）
-6. 集群管理
-
-#### 第93天：[MySQL性能优化](./Day91-100/93.MySQL性能优化.md)
-
-#### 第94天：[网络API接口设计](./Day91-100/94.网络API接口设计.md)
-
-#### 第95天：[使用Django开发商业项目](./Day91-100/95.使用Django开发商业项	目.md)
-
-##### 项目开发中的公共问题
-
-1. 数据库的配置（多数据库、主从复制、数据库路由）
-2. 缓存的配置（分区缓存、键设置、超时设置、主从复制、故障恢复（哨兵））
-3. 日志的配置
-4. 分析和调试（Django-Debug-ToolBar）
-5. 好用的Python模块（日期计算、图像处理、数据加密、三方API）
-
-##### REST API设计
-
-1. RESTful架构
-   - [理解RESTful架构](http://www.ruanyifeng.com/blog/2011/09/restful.html)
-   - [RESTful API设计指南](http://www.ruanyifeng.com/blog/2014/05/restful_api.html)
-   - [RESTful API最佳实践](http://www.ruanyifeng.com/blog/2018/10/restful-api-best-practices.html)
-2. API接口文档的撰写
-   - [RAP2](http://rap2.taobao.org/)
-   - [YAPI](http://yapi.demo.qunar.com/)
-3. [django-REST-framework](https://www.django-rest-framework.org/)的应用
-
-##### 项目中的重点难点剖析
-
-1. 使用缓存缓解数据库压力 - Redis
-2. 使用消息队列做解耦合和削峰 - Celery + RabbitMQ
-
-#### 第96天：[软件测试和自动化测试](Day91-100/96.软件测试和自动化测试.md)
-
-##### 单元测试
-
-1. 测试的种类
-2. 编写单元测试（unittest、pytest、nose2、tox、ddt、……）
-3. 测试覆盖率（coverage）
-
-##### 项目部署
-
-1. 部署前的准备工作
-   - 关键设置（SECRET_KEY / DEBUG / ALLOWED_HOSTS / 缓存 / 数据库）
-   - HTTPS / CSRF_COOKIE_SECUR  / SESSION_COOKIE_SECURE  
-   - 日志相关配置
-2. Linux常用命令回顾
-3. Linux常用服务的安装和配置
-4. uWSGI/Gunicorn和Nginx的使用
-   - Gunicorn和uWSGI的比较
-     - 对于不需要大量定制化的简单应用程序，Gunicorn是一个不错的选择，uWSGI的学习曲线比Gunicorn要陡峭得多，Gunicorn的默认参数就已经能够适应大多数应用程序。
-     - uWSGI支持异构部署。
-     - 由于Nginx本身支持uWSGI，在线上一般都将Nginx和uWSGI捆绑在一起部署，而且uWSGI属于功能齐全且高度定制的WSGI中间件。
-     - 在性能上，Gunicorn和uWSGI其实表现相当。
-5. 使用虚拟化技术（Docker）部署测试环境和生产环境
-
-##### 性能测试
-
-1. AB的使用
-2. SQLslap的使用
-3. sysbench的使用
-
-##### 自动化测试
-
-1. 使用Shell和Python进行自动化测试
-2. 使用Selenium实现自动化测试
-   - Selenium IDE
-   - Selenium WebDriver
-   - Selenium Remote Control
-3. 测试工具Robot Framework介绍
-
-#### 第97天：[电商网站技术要点剖析](./Day91-100/97.电商网站技术要点剖析.md)
-
-#### 第98天：[项目部署上线和性能调优](./Day91-100/98.项目部署上线和性能调优.md)
-
-1. MySQL数据库调优
-2. Web服务器性能优化
-   - Nginx负载均衡配置
-   - Keepalived实现高可用
-3. 代码性能调优
-   - 多线程
-   - 异步化
-4. 静态资源访问优化
-   - 云存储
-   - CDN
-
-#### 第99天：[面试中的公共问题](./Day91-100/99.面试中的公共问题.md)
-
-#### 第100天：[Python面试题集](./Day91-100/100.Python面试题集.md)
-
+### Analysis of Python application areas and employment situation
+
+Simply put, Python is an "elegant", "clear", and "simple" programming language.
+
+Low learning curve, even non-professionals can get started
+Open source system with a strong ecosystem
+Interpreted language, perfect platform portability
+Supports object-oriented and functional programming
+Ability to extend functionality by calling C / C ++ code
+Code is highly standardized and readable
+Python is useful in several popular areas.
+
+Cloud Infrastructure-Python / Java / Go
+DevOps-Python / Shell / Ruby / Go
+Web crawler-Python / PHP / C ++
+Data Analysis Mining-Python / R / Scala / Matlab
+Machine Learning-Python / R / Java / Lisp
+As a Python developer, the main employment areas include:
+
+Python server background development / game server development / data interface development engineer
+Python Automation Operation and Maintenance Engineer
+Python data analysis / data visualization / big data engineer
+Python crawler engineer
+Python chat robot development / image recognition and vision algorithm / deep learning engineer
+
+A few suggestions for beginners:
+
+Make English as your working language.
+Practice makes perfect.
+All experience comes from mistakes.
+Don't be one of the leeches.
+Either stand out or kicked out.
+Day01 ~ 15- Python language basics
+Day01-Getting to know Python
+Introduction to Python-History of Python / Pros and Cons of Python / Application Areas of Python
+Build a programming environment-Windows environment / Linux environment / MacOS environment
+Run Python program from terminal-Hello, world / print function / run program
+Using IDLE-Interactive Environment (REPL) / Writing Multiple Lines of Code / Running a Program / Exiting IDLE
+Comments-The role of comments / single-line comments / multi-line comments
+Day02- language element
+Programs and Bases-Instructions and Programs / Von Neumann Machines / Binary and Decimal / Octal and Hex
+Variables and types-variable naming / use of variables / input functions / checking variable types / type conversion
+Numbers and strings-integers / floating points / complex numbers / strings / string basic operations / character encoding
+Operators-Mathematical Operators / Assignment Operators / Comparison Operators / Logical Operators / Identity Operators / Operator Priorities
+Application Case-Convert Fahrenheit to Celsius / Enter the radius of the circle to calculate the perimeter and area / Enter the year to determine if it is a leap year
+Day03- branch structure
+Application Scenarios for Branching Structure-Conditions / Indentation / Code Blocks / Flowchart
+if statement-simple if / if-else structure / if-elif-else structure / nested if
+Application case-User authentication / Swap the imperial and metric units / Roll the dice to decide what to do / Percentage to grade system / Piecewise function evaluation
+Day04- loop structure
+Application Scenarios for Loop Structures-Conditions / Indentation / Code Blocks / Flowcharts
+while loop-basic structure / break statement / continue statement
+for loop-basic structure / range type / branch structure in loop / nested loop / early end of program
+Application Cases-1 ~ 100 Summation / Judging Prime Numbers / Guessing Numbers Game
+Day05- Constructor logic
+Classic case: Number of daffodils / hundreds of chickens / Craps gambling game
+Practice questions: Fibonacci sequence / perfect number / prime number
+Day06-Use of functions and modules
+The role of functions-bad smell of code / function modules with functions
+Define function-def statement / function name / parameter list / return statement / call custom function
+Calling Functions-Python Built-in Functions / Importing Modules and Functions
+Function arguments-default arguments / variable arguments / keyword arguments / named keyword arguments
+Function return value-no return value / single value returned / multiple values ​​returned
+Scope issues-local scope / nested scope / global scope / built-in scope / scope-related keywords
+Manage functions with modules-module concepts / functions with custom modules / naming conflicts (same module and different modules)
+Day07- Strings and common data structures
+Use of Strings-Calculating Length / Subscript Operation / Slicing / Common Methods
+Basic usage of lists-define lists
+List common operations-join / copy (copy elements and copy arrays) / length / sort / reverse / find
+Generate List-create a list of numbers using range / generate expressions / generator
+Use of tuples-define tuples / use values ​​in tuples / modify tuple variables / tuples and list conversion
+Collection basic usage-the difference between collection and list / create collection / add element / delete element / empty
+Common Set Operations-Intersection / Union / Difference / Symmetric Difference / Subset / Superset
+Basic dictionary usage-Features of dictionary / Create dictionary / Add element / Remove element / Value / Clear
+Dictionary common operations-keys () method / values ​​() method / items () method / setdefault () method
+Basic Exercises-Marquee Effects / Finding the Largest Element in a List / Statistical Average of Test Results / Fibonacci Sequence
+Comprehensive case-Two-color ball selection / Tic-tac-toe
+Day08- Basics of Object - Oriented Programming
+Classes and Objects-What Are Classes / What Are Objects / Other Object Oriented Concepts
+Defining Classes-Basic Structure / Properties and Methods / Constructors / Destructors / __str__ Methods
+Working with objects-creating objects / messaging objects
+Four Pillars of Object Orientation-Abstraction / Encapsulation / Inheritance / Polymorphism
+Basic Exercises-Define Student Class / Define Clock Class / Define Graphics Class / Define Automotive Class
+Day09- Advanced Object Oriented
+Properties-class properties / instance properties / property accessors / property modifiers / property deleters / use __slots__
+Methods in the class-instance methods / class methods / static methods
+Operator overloading-__add__ / __sub__ / __or__ / __ getitem__ / __setitem__ / __len__ / __repr__ / __gt__ / __lt__ / __le__ / __ge__ / __eq______________ _______
+Relationship between classes (objects)-association / inheritance / dependency
+Inheritance and Polymorphism-What is Inheritance / Inheritance Syntax / Calling Parent Method / Method Override / Type Decision / Multiple Inheritance / Diamond Inheritance (Diamond Inheritance) and C3 Algorithm
+Comprehensive case-salary settlement system / automatic book discount system / custom scores
+Day10- Graphical user interface and game development
+Develop GUI programs using tkinter
+Use pygame library to develop game applications
+"Big Ball Eat Small Ball" game
+Day11- files and exceptions
+Read file-read entire file / read line by line / file path
+Write file-overwrite / append write / text file / binary file
+Exception Handling-Importance of Exception Mechanisms / try-except code blocks / else code blocks / finally code blocks / built-in exception types / exception stacks / raise statements
+Data Persistence-Overview of CSV files / Application of csv module / JSON data format / Application of json module
+Day12- strings and regular expressions
+Advanced string operations-escape characters / raw strings / multi-line strings / in and not in operators / methods starting with is / join and split methods / strip related methods / pyperclip module / immutable strings and variable characters Use of String / StringIO
+Getting started with regular expressions-What regular expressions do / metacharacters / escapes / quantifiers / grouping / zero-width assertions / greedy matching and lazy matching laziness / regular expression operations (match, search, replace, capture) with re
+Use regular expressions-re modules / compile functions / group and groups methods / match methods / search methods / findall and finder methods / sub and subn methods / split methods
+Use Case-Validate Input Strings Using Regular Expressions
+Day13- processes and threads
+The concept of processes and threads-what is a process / what is a thread / multi-threaded application scenario
+Use process-fork function / multiprocessing module / process pool / inter-process communication
+Using threads-thread module / threading module / Thread class / Lock class / Condition class / Thread pool
+Day14- Introduction to Network Programming and Network Application Development
+Computer Network Basics-History of Computer Networks / "TCP-IP" Model / IP Address / Port / Protocol / Other Related Concepts
+Web Application Mode-Client-Server Mode / Browser-Server Mode
+Access network resources based on HTTP protocol-Overview of network API / Access URL / requests module / Parse JSON format data
+Python Network Programming-Socket Concept / Socket Module / Socket Function / Create TCP Server / Create TCP Client / Create UDP Server / Create UDP Client / SocketServer Module
+Email-SMTP protocol / POP3 protocol / IMAP protocol / smtplib module / poplib module / imaplib module
+SMS Service-Call SMS Service Gateway
+Day15- image and document processing
+Process pictures with Pillow-picture reading and writing / picture synthesis / geometric transformation / color conversion / filter effects
+Reading and Writing Word Documents-Handling of Text Content / Paragraphs / Headers and Footers / Style Handling
+Read and write Excel files-xlrd module / xlwt module
+Generate PDF file-pypdf2 module / reportlab module
+Day16 ~ Day20- Advanced Python Language
+Common data structures
+Advanced Use of Functions-"First Class Citizens" / Higher Order Functions / Lambda Functions / Scopes and Closures / Decorators
+Advanced Object-Oriented Knowledge-"Three Pillars" / The Relationship Between Classes / Garbage Collection / Magic Properties and Methods / Hybrids / Metaclasses / Object-Oriented Design Principles / GoF Design Patterns
+Iterators and generators-related magic methods / Two ways to create generators /
+Concurrent and asynchronous programming-multi-threaded / multi-process / asynchronous IO / async and await
+Day21 ~ 30-Introduction to Web Frontend
+Host page content with HTML tags
+Rendering pages with CSS
+Handling interactive behavior with JavaScript
+Getting started with jQuery
+Getting started with Vue.js
+Use of Element
+Use of Bootstrap
+Day31 ~ 35- Fun with Linux operating system
+Operating system history and Linux overview
+Linux basic commands
+Utilities in Linux
+Linux file system
+Vim editor application
+Environment variables and shell programming
+Software installation and service configuration
+Network access and management
+Other related content
+Day36 ~ 40- Database basics and advanced
+Relational Database MySQL
+Overview of relational databases
+Installation and use of MySQL
+Use of SQL
+DDL-Data Definition Language-create / drop / alt
+DML-Data Manipulation Language-insert / delete / update / select
+DCL-Data Control Language-grant / revoke
+related information
+Paradigm Theory-Guidelines for Designing Two-Dimensional Tables
+Data integrity
+Data consistency
+Manipulating MySQL in Python
+Getting started with NoSQL
+NoSQL overview
+Redis overview
+Mongo overview
+Day41 ~ 55- Practical Django
+Day41- Quick Start
+Web application working principle and HTTP protocol
+Overview of the Django framework
+Get started in 5 minutes
+Using view templates
+Day42-In- Depth Model
+Relational database configuration
+Use of management background
+CRUD operations on models using ORM
+Django model best practices
+Model definition reference
+Day43- Static resources and Ajax requests
+Load static resources
+Get data with Ajax request
+Day44- Form Application
+Forms and form controls
+Cross-site request forgery and CSRF token
+Form and ModelForm
+form validation
+Day45- Cookie and Session
+Implementing user tracking
+The relationship between cookies and sessions
+Django framework support for sessions
+Read and write cookies in view functions
+Day46- reports and logs
+Modify the response header through HttpResponse
+Handling large files with StreamingHttpResponse
+Generate Excel report using xlwt
+Generate PDF report using reportlab
+Generate front-end charts with ECharts
+Configuration logs and Django-Debug-Toolbar
+Day47- Application of middleware
+What is middleware
+Middleware built into the Django framework
+Custom middleware and its application scenarios
+Day48- Introduction to front-end and back-end separation development
+Returns data in JSON format
+Rendering a page with Vue.js
+Day49- Introduction to RESTful Architecture and DRF
+Day50- RESTful architecture and advanced DRF
+Day51- use cache
+Website optimization first law
+
+### Use Redis to provide caching services in Django projects
+
+### Read and write cache in view functions
+
+Implement page caching using decorators
+
+Provide caching services for data interfaces
+
+Day52- File upload and rich text editing
+File upload form control and picture file preview
+How the server handles uploaded files
+Rich text editor overview
+Use of wangEditor
+Day53- text and email
+Introduction to common SMS gateway platforms
+Send a text message with a screw cap
+Django framework support for mail services
+Day54- asynchronous and timed tasks
+Website optimization second law
+Configure the message queue service
+Use celery to make tasks asynchronous in projects
+Use celery to implement timed tasks in projects
+Day55- Unit testing and project launch
+Unit tests in Python
+Django framework support for unit testing
+Using a version control system
+Configure and use uWSGI
+Dynamic and static separation and Nginx configuration
+Configure HTTPS
+Day56 ~ 60- Actual Flask
+Day56- getting started with Flask
+Day57- Use of templates
+Day58- Form processing
+Day59- database operations
+Day60- Project Combat
+Day61 ~ 65- Tornado in action
+Day61- preliminary knowledge
+Concurrent programming
+I / O mode and event-driven
+Day62- Getting Started with Tornado
+Tornado overview
+Get started with Tornado in 5 minutes
+Route resolution
+Request handler
+Day63- asynchronous
+Use of aiomysql and aioredis
+Day64- WebSocket Application
+WebSocket Introduction
+WebSocket server-side programming
+WebSocket client programming
+Project: Web chat room
+Day65- Project Combat
+Front-end and back-end separation development and interface documentation
+Front-end rendering with Vue.js
+Use ECharts for reporting
+Using WebSocket for Push Services
+Day66 ~ 75- Reptile Development
+Day66- Web crawler and related tools
+The concept of web crawler and its application field
+Discussion on the legitimacy of web crawlers
+Related tools for developing web crawlers
+The composition of a crawler
+Day67- Data Acquisition and Analysis
+Data Acquisition Standards and Tripartite Libraries
+Three ways of page parsing: regular expression parsing / XPath parsing / CSS selector parsing
+Day68- Store data
+How to store massive data
+Implementing data caching
+Day69- concurrent download
+Multi-threaded and multi-process
+Asynchronous I / O and coroutines
+Use of async and await keywords
+Application of three party library aiohttp
+Day70- Parsing dynamic content
+JavaScript reverse engineering
+Get dynamic content with Selenium
+Day71- Form interaction and verification code processing
+Auto submit form
+Cookie pool application
+Verification code processing
+Day72- Getting started with Scrapy
+Overview of the Scrapy crawler framework
+Install and use Scrapy
+Day73- Scrapy Advanced Application
+Spider
+Application of middleware: download middleware / spider middleware
+Scrapy docks with Selenium to grab dynamic content
+Scrapy deployment to Docker
+Day74- Scrapy distributed implementation
+The principle of distributed crawlers
+Scrapy distributed implementation
+Distributed deployment with Scrapyd
+Day75- actual crawler project
+Crawling Job Site Data
+Crawling Real Estate Industry Data
+Crawling Used Car Trading Platform Data
+Day76 ~ 90- Data Processing and Machine Learning
+Day76- Machine Learning Basics
+Day77- Applications by Pandas
+Day78-Application of NumPy and SciPy
+Day79- Matplotlib and data visualization
+Day80- k nearest neighbor (KNN) classification
+Day81- Decision Tree
+Day82- Bayesian Classification
+Day83- Support Vector Machine (SVM)
+Day84- K-means clustering
+Day85- regression analysis
+Day86- Introduction to Big Data Analytics
+Day87- Advanced big data analysis
+Day88- Getting started with Tensorflow
+Day89- Tensorflow combat
+Day90- recommendation system
+Day91 ~ 100- Team project development
+Day 91: Problems and Solutions for Team Project Development
+Software process model
+
+Classic Process Model (Waterfall Model)
+
+Feasibility analysis (do or don't do research), output "feasibility analysis report".
+Requirement analysis (research what to do), output "Requirement Specification" and product interface prototype diagram.
+Summary design and detailed design, output conceptual model diagram (ER diagram), physical model diagram, class diagram, timing diagram, etc.
+Coding / testing.
+Go Live / Maintenance.
+The biggest shortcoming of the waterfall model is that it cannot embrace changes in demand. The product can only be seen after the entire process is completed, and the morale of the team is low.
+
+Scrum-Product Owner, Scrum Master, Developer-Sprint
+
+Product Backlog (user story, product prototype).
+Planning meetings (evaluation and budget).
+Daily development (stand-up meetings, tomato work, pair programming, test-first, code refactoring ...).
+Fix bugs (problem description, recurring steps, testers, assignees).
+release version.
+Review meeting (Showcase, users need to participate).
+Retrospective (to summarize the current iteration cycle).
+Added: Manifesto for Agile Software Development
+
+Individuals and interactions above processes and tools
+Working software above detailed documentation
+Customer cooperation above contract negotiation
+Response to change is higher than following plan
+
+
+### Role: Product owner (who decides what to do and who can make a decision on the needs), team leader (solve various issues, focus on how to work better, shield the external influence on the development team), development team (project executive, Specifically developers and testers).
+
+Preparations: business case and funding, contract, vision, initial product requirements, initial release plan, shareholding, team formation.
+
+Agile teams usually have 8-10 people.
+
+Estimation of workload: Quantify development tasks, including prototypes, logo design, UI design, front-end development, etc. Try to break down each task to the minimum task amount, the minimum task amount standard is that the working time cannot exceed two days, and then estimate the overall project time . Stick each task on the kanban, which is divided into three parts: to do (to be completed), in progress, and done.
+
+Project team formation
+
+Team composition and role
+
+Note: Thank you, Ms. Fu Xiangying, for drawing this beautiful organization chart.
+
+company_architecture
+
+Programming specifications and code review (flake8, pylint)
+
+
+
+Some "conventions" in Python (refer to "Python Conventions-How to Write Pythonic Code" )
+
+Reasons affecting code readability:
+
+Too few or no comments
+Code breaks language best practices
+Anti-pattern programming (spaghetti code, copy-paste programming, conceit programming, ...)
+Team Development Tools
+
+Version control: Git, Mercury
+Defect Management: Gitlab , Redmine
+Agile closed-loop tools: Zen Tao , JIRA
+Continuous integration: Jenkins , Travis-CI
+Please refer to "Problems and Solutions for Team Project Development" .
+
+Project selection and understanding business
+Topic selection range setting
+
+CMS (user terminal): news aggregation site, Q & A / share community, film review / book review site, etc.
+
+MIS (user side + management side): KMS, KPI assessment system, HRS, CRM system, supply chain system, warehouse management system, etc.
+
+App background (management side + data interface): second-hand transactions, newspapers and magazines, niche e-commerce, news and information, travel, social, reading, etc.
+
+Other types: own industry background and work experience, business is easy to understand and control.
+
+Requirements understanding, module division and task allocation
+
+Need understanding: brainstorming and competitive product analysis.
+Module division: draw a mind map (XMind), each module is a branch node, and each specific function is a leaf node (expressed by a verb). You need to ensure that each leaf node cannot reproduce a new node and determine each leaf Node importance, priority, and workload.
+Task assignment: The project leader assigns tasks to each team member according to the above indicators.
+
+
+### Develop project schedule (updated daily)
+
+Module	Features	personnel	status	carry out	Working hours	Start of plan	Actual start	End of plan	Actual end	Note
+comment	add comment	King Sledgehammer	Ongoing	50%	4	8/7/2018		8/7/2018		
+Delete comment	King Sledgehammer	wait	0%	2	8/7/2018		8/7/2018		
+View comments	Bai Yuanfang	Ongoing	20%	4	8/7/2018		8/7/2018		Need code review
+Comment vote	Bai Yuanfang	wait	0%	4	8/8/2018		8/8/2018		
+OOAD and database design
+
+Class diagram of UML (Unified Modeling Language)
+
+uml
+
+Creating a table from a model (forward engineering)
+
+python manage.py makemigrations app
+python manage.py migrate
+Use PowerDesigner to draw physical model diagrams.
+
+
+
+### Creating a model from a data table (reverse engineering)
+
+python manage.py inspectdb > app / models.py
+### Day 92: Docker Container Explained
+Introduction to Docker
+Install Docker
+Create containers using Docker (Nginx, MySQL, Redis, Gitlab, Jenkins)
+Building a Docker image (writing Dockerfile and related instructions)
+Container orchestration (Docker-compose)
+Cluster management
+### Day 93: MySQL Performance Optimization
+### Day 94: Network API Interface Design
+### Day 95: [Develop commercial projects using Django] (./Day91-100/95. Developing commercial projects using Django.md)
+Public issues in project development
+Database configuration (multi-database, master-slave replication, database routing)
+Configuration of the cache (partition cache, key settings, timeout settings, master-slave replication, failure recovery (sentinel))
+Configuration of logs
+Analysis and debugging (Django-Debug-ToolBar)
+Easy-to-use Python modules (date calculation, image processing, data encryption, tripartite API)
+REST API design
+RESTful architecture
+Understanding RESTful architecture
+RESTful API Design Guide
+RESTful API best practices
+Writing of API interface documents
+RAP2
+YAPI
+django-REST-framework application
+Analysis of key and difficult points in the project
+Using caching to ease database pressure-Redis
+Decoupling and peak clipping using message queues-Celery + RabbitMQ
+### Day 96: Software Testing and Automation Testing
+unit test
+Type of test
+Writing unit tests (unittest, pytest, nose2, tox, ddt, ...)
+Test coverage
+Project deployment
+Preparations before deployment
+Key settings (SECRET_KEY / DEBUG / ALLOWED_HOSTS / cache / database)
+HTTPS / CSRF_COOKIE_SECUR / SESSION_COOKIE_SECURE
+Log related configuration
+Linux common commands review
+Installation and configuration of common services in Linux
+Use of uWSGI / Gunicorn and Nginx
+Comparison of Gunicorn and uWSGI
+For simple applications that do not require a lot of customization, Gunicorn is a good choice. The learning curve of uWSGI is much steeper than Gunicorn. The default parameters of Gunicorn can already adapt to most applications.
+uWSGI supports heterogeneous deployment.
+Because Nginx natively supports uWSGI, Nginx and uWSGI are usually bundled together for deployment online, and uWSGI is a fully functional and highly customized WSGI middleware.
+In terms of performance, Gunicorn and uWSGI actually perform similarly.
+Deploy test and production environments using virtualization technology (Docker)
+Performance Testing
+Use of AB
+Use of SQLslap
+Use of sysbench
+automated test
+Automate testing with Shell and Python
+Automate testing with Selenium
+Selenium IDE
+Selenium WebDriver
+Selenium Remote Control
+Introduction to the testing tool Robot Framework
+### Day 97: Analysis of Technical Points of E-commerce Websites
+### Day 98: Project deployment and performance tuning
+MySQL database tuning
+Web server performance optimization
+Nginx load balancing configuration
+Keepalived for high availability
+Code performance tuning
+Multithreading
+Asynchronous
+Static resource access optimization
+Cloud storage
+CDN
+### Day 99: Public Questions in the Interview
+### Day 100: Python Interview Questions
