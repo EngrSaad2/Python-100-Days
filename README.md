@@ -1,5 +1,5 @@
 ## Python - 100天从新手到大师
-..........
+.........
 <b>SAAD</b> <br>
 Email: saad@triangeltech.com<br>
 Website: https://engr-saad.com <br>
